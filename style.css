@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Product Sans1';
+  src: url('fonts/Product Sans Regular.ttf')  format('truetype'); 
+}
+@font-face {
+  font-family: 'Product Sans2';
+  src: url('fonts/Product Sans Bold.ttf')  format('truetype'); 
+}
+
+body {
+	font-family: 'Product Sans1', sans-serif;
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.2), 
+          rgba(0, 0, 0, 0.2)
+        ),
+		url('img/wallpapersden.com_fischl-genshin-impact_1920x1080.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+	background-color: #333;
+	color: white;
+	font-size: 20px;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1.hello {
+	margin-top: 10%;
+}
+
+h1.hello, h1.timing {
+	margin-bottom: 2%;
+	font-size: 3.2rem;
+}
+
+.input_box {
+	border:none;
+    border-radius: 30px;
+	min-width: 850px;
+	padding: 15px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	outline: 0;
+	margin-bottom: 20px;
+}
+.container{
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: top;
+}
+.category{
+    text-align: left;
+    font-size: 20px;
+    align-self: left;
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 30px;
+}
