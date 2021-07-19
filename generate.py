@@ -51,3 +51,16 @@ f'''
 
 with open('index.html', 'w') as file:
     file.write(HTML)
+
+background_path = Config["Background"]
+
+with open('style.css', 'r') as file:
+    source = file.read()
+    beg = source.find('"img/')
+    end = source[beg:].find(');\n')
+    print(beg,end)
+    source = f'{source[:beg]}"{background_path}"{source[end+beg:]}'
+    
+with open('style.css', 'w') as file:
+    file.write(source)
+

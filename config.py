@@ -1,10 +1,11 @@
 Config = {
+          "Background": "img/fischl.jpg",
           "HelloText": "私は人生よりもあなたを愛しています",
           "SearchPrompt": "Search with Brave",
           "Container": {
                         "Social": {
                                           "VK": "https://vk.com",
-                                          "Youtube": "https://www.instagram.com/",
+                                          "Youtube": "https://www.youtube.com/",
                                           "Telegram": "https://web.telegram.org/k/",
                                           "Kinopoisk": "https://hd.kinopoisk.ru/",
                                          },
@@ -20,7 +21,7 @@ Config = {
                                           "StackOverflow": "https://stackoverflow.com/",
                                           "GitHub": "https://github.com/barbiefan/",
                                           "Arch Wiki": "https://wiki.archlinux.org/",
-                                         }
+                                         },
                        }
          }
 

@@ -9,15 +9,11 @@
 
 body {
 	font-family: 'Product Sans1', sans-serif;
-	background: linear-gradient(
-          rgba(0, 0, 0, 0.2), 
-          rgba(0, 0, 0, 0.2)
-        ),
-		url('img/wallpapersden.com_fischl-genshin-impact_1920x1080.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/fischl.jpg");
 	background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-    background-attachment: fixed;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: fixed;
 	background-color: #333;
 	color: white;
 	font-size: 20px;
@@ -26,6 +22,10 @@ body {
 a, a:hover, a:focus, a:active, a:visited {
 	text-decoration: none;
 	color: #fff;
+}
+
+.hello {
+  text-align: center;
 }
 
 h1.hello {
@@ -53,7 +53,7 @@ h1.hello, h1.timing {
     margin-top: 2%;
     margin-bottom: 2%;
     grid-template-columns: repeat(3,1fr);
-    justify-items: top;
+    justify-items:top;
 }
 .category{
     text-align: left;
