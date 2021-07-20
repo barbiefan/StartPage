@@ -1,9 +1,9 @@
  
-# Manga StartPage
+# StartPage
 
 ----------------------------
 
-A minimalist startpage for web browsers with Manga background.
+A minimalist startpage for web browsers    I did my own spin on it, feel free to fork
 
 ----------------------------
 
