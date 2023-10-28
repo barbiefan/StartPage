@@ -14,7 +14,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-color: #3e6e85; /*walcolor*/
+  background-color: #0e151e; /*walcolorA*/
   color: white;
   font-size: 2rem;
 }
@@ -29,6 +29,7 @@ a:visited {
 }
 
 .timing {
+  color: #039DDF; /*walcolorB*/
   text-align: center;
   margin-bottom: 2%;
   margin-top: 2%;
@@ -36,6 +37,7 @@ a:visited {
 }
 
 .hello {
+  color: #039DDF; /*walcolorB*/
   text-align: center;
   margin-top: 5%;
   font-size: 2.45rem;
@@ -49,7 +51,7 @@ a:visited {
   padding-left: 15px;
   padding-right: 15px;
   background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
+  color: #039DDF; /*walcolorB*/
   outline: 0;
   margin-bottom: 1%;
 }
@@ -88,15 +90,15 @@ a:visited {
 }
 
 h3.h_category_header_text {
-  font-size: 2rem;
+  font-size: 2vh;
   text-align: center;
 }
 
 .link_box {
   text-align: center;
-  font-size: 1.5vh;
+  font-size: 1.2vh;
   align-self: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: #039DDF; /*walcolorB*/
   padding: 1%;
   border-radius: 30px;
 }
